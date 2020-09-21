@@ -11,15 +11,24 @@
 </head>
 
 <body>
-    <forum>
-        <div id="email_input">
-            <input type="email" , id="email" ,>
-        </div>
+    <forum action="null" method="post">
+        <label>
+            <div id="email_input">
+                <input type="email" , id="email" , required>
+            </div>
+        </label>
 
-        <div id="name_input">
-            <input type="name" , id="name" ,>
+        <label>
+            <div id="phone_number_input">
+                <input type="tel" , id="phone_number" , required>
+            </div>
+        </label>
 
-        </div>
+        <label>
+            <div>
+                <input type="date" , id="birthdate" , required>
+            </div>
+        </label>
     </forum>
 </body>
 

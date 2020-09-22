@@ -14,19 +14,22 @@
     <h1 id="form_name">Form</h1>
 
     <form action="null" method="post" autocomplete="on">
-        <label>Email:</label>
         <div class="input">
-            <input type="email" class="input" placeholder="JohnDoe@gmail.com" required>
+            <label>Email:</label>
+            <p></p>
+            <input type="email" class="input" id="email_input" placeholder="JohnDoe@gmail.com" required>
         </div>
 
-        <label>Phone Number:</label>
         <div class="input">
-            <input type="tel" class="input" placeholder="###-###-####" required>
+            <label>Phone Number:</label>
+            <p></p>
+            <input type="tel" class="input" id="phone_input" placeholder="###-###-####" required>
         </div>
 
-        <label>Birthday:</label>
         <div class="input">
-            <input type="date" class="input" required>
+            <label>Birthday:</label>
+            <p></p>
+            <input type="date" class="input" id="birthdate_input" placeholder="mm/dd/yyyy" required>
         </div>
 
         <div class="input" id="submit_button">

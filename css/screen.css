@@ -1,30 +1,46 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body {
+    background-color: black;
+}
+
 .input {
     text-align: center;
     font-family: Montserrat;
     font-size: 1em;
-}
-
-label {
-    font-family: Montserrat;
-    text-align: center;
-    display: inline-block;
+    margin-top: 0.75em;
+    color: red;
+    width: 50%;
 }
 
 h1 {
     font-family: Montserrat;
     text-align: center;
     font-size: 4.5em;
+    color: red;
 }
 
 #submit_button {
     margin-top: 1em;
 }
 
+#email_input {
+    text-align: center;
+}
+
+#phone_input {
+    text-align: center;
+}
+
+#birthdate_input {
+    text-align: center;
+    color: grey;
+    width: 13em;
+}
+
 
 /* For mobile */
 
-@media screen and (min-width: 600px) {}
+@media screen and (min-width: 480px) {}
 
 
 /* For desktop */

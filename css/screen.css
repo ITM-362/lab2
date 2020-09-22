@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+/* For mobile */
+
+@media screen and (min-width: 480px) {}
+
 body {
     background-color: black;
+}
+
+input {
+    width: 80%;
 }
 
 .input {
@@ -36,16 +45,6 @@ h1 {
 #birthdate_input {
     text-align: center;
     color: grey;
-    width: 13em;
-}
-
-
-/* For mobile */
-
-@media screen and (min-width: 480px) {}
-
-body {
-    width: 80%;
 }
 
 
@@ -53,6 +52,6 @@ body {
 
 @media screen and (min-width: 992px) {}
 
-body {
-    width: 100%;
+input {
+    width: 50%;
 }

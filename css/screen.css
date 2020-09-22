@@ -5,10 +5,20 @@
     font-size: 1em;
 }
 
+label {
+    font-family: Montserrat;
+    text-align: center;
+    display: inline-block;
+}
+
 h1 {
     font-family: Montserrat;
     text-align: center;
-    font-size: 1em;
+    font-size: 4.5em;
+}
+
+#submit_button {
+    margin-top: 1em;
 }
 
 

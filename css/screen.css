@@ -9,7 +9,7 @@ body {
     font-size: 1em;
     margin-top: 0.75em;
     color: red;
-    width: 50%;
+    padding: 10px 20px;
 }
 
 h1 {
@@ -25,10 +25,12 @@ h1 {
 
 #email_input {
     text-align: center;
+    color: grey;
 }
 
 #phone_input {
     text-align: center;
+    color: grey;
 }
 
 #birthdate_input {
@@ -42,7 +44,15 @@ h1 {
 
 @media screen and (min-width: 480px) {}
 
+body {
+    width: 80%;
+}
+
 
 /* For desktop */
 
 @media screen and (min-width: 992px) {}
+
+body {
+    width: 100%;
+}

@@ -9,7 +9,7 @@ body {
 }
 
 input {
-    width: 80%;
+    width: 100%;
 }
 
 .input {
@@ -53,5 +53,14 @@ h1 {
 @media screen and (min-width: 992px) {}
 
 input {
-    width: 50%;
+    width: 80%
+}
+
+.input {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1em;
+    margin-top: 0.75em;
+    color: red;
+    padding: 20px 30px;
 }

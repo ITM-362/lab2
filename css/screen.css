@@ -1,1 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.input {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1em;
+}
+
+
+/* For mobile */
+
+@media screen and (min-width: 600px) {}
+
+
+/* For desktop */
+
+@media screen and (min-width: 992px) {}
